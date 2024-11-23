@@ -44,10 +44,12 @@ will result in:
 - Greedy algorithm, always accepts the best local move.
 - Easily stuck in local minima.
 - For quick and simple approximations, this is sufficient.
+  
 ###Simulated Annealing:
 - Probabilistic approach, can escape local minima by accepting worse moves sometimes.
 - Temperature reduces randomness over time to focus on local refinement.
 - If the landscape is more complex, this will result in better solutions.
+
 ###Nelder-Mead:
 - Geometric, works with multiple points at once to reshape simplex to converge on the best solution.
 - Particularly useful for optimizing functions with more than one variable.
