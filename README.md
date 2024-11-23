@@ -1,11 +1,11 @@
 # Hash-Table-Optimization
 
 ## Overview
-This object utilizes a hash table with dynamic resizing and parameter optimization techniques to minimize collisions and reduces the number of rehashes. The hash function paramters are optimized using 3 techniques: Hill Climbing, Simulated Annealing, and Nelder-Mead. 
+This object utilizes a hash table with dynamic resizing and parameter optimization techniques to minimize collisions and reduce the number of rehashes. The hash function parameters are optimized using 3 techniques: Hill Climbing, Simulated Annealing, and Nelder-Mead. 
 
 ## Hash Function
 The hash function used:
-    * h(x) = (a*x + b) % m *
+    $h(x) = (a*x + b) % m$
 
 Where:
     *a* and *b* are adjustable parameters
@@ -40,15 +40,15 @@ will result in:
 | **b         ** | 1             | 40                  | 1           |
 | **Collisions** | 13            | 13                  | 13          |
 
-**Hill Climbing:** 
+###Hill Climbing:
 - Greedy algorithm, always accepts the best local move.
 - Easily stuck in local minima.
-- For a quick and simple approximations, this is sufficient.
-**Simulated Annealing:** 
+- For quick and simple approximations, this is sufficient.
+###Simulated Annealing:
 - Probabilistic approach, can escape local minima by accepting worse moves sometimes.
 - Temperature reduces randomness over time to focus on local refinement.
 - If the landscape is more complex, this will result in better solutions.
-**Nelder-Mead:**
+###Nelder-Mead:
 - Geometric, works with multiple points at once to reshape simplex to converge on the best solution.
 - Particularly useful for optimizing functions with more than one variable.
 - The most precise optimization, this is often the best choice, but will require a higher runtime.
