@@ -55,6 +55,6 @@ will result in:
 - Particularly useful for optimizing functions with more than one variable.
 - The most precise optimization, this is often the best choice, but will require a higher runtime.
 
-## Author
-Chi Nguyen
-Email: nguyenct1@g.cofc.edu
+## Contact Information
+**Author:** Chi Nguyen
+**Email:** nguyenct1@g.cofc.edu
