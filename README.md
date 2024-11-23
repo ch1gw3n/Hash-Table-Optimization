@@ -36,8 +36,8 @@ if __name__ == "__main__":
 will result in:
 | Metric         | Hill Climbing | Simulated Annealing | Nelder-Mead |
 |:---------------|--------------:|:-------------------:|------------:|
-| **a         ** | 1             | 21                  | 1           |
-| **b         ** | 1             | 40                  | 1           |
+| **a**          | 1             | 21                  | 1           |
+| **b**          | 1             | 40                  | 1           |
 | **Collisions** | 13            | 13                  | 13          |
 
 **Hill Climbing:**
