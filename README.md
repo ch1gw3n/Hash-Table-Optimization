@@ -57,4 +57,5 @@ will result in:
 
 ## Contact Information
 **Author:** Chi Nguyen
+
 **Email:** nguyenct1@g.cofc.edu
