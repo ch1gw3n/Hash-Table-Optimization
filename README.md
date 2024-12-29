@@ -1,4 +1,4 @@
-# Hash-Table-Optimization
+# Hash Table Optimization
 
 ## Overview
 This object utilizes a hash table with dynamic resizing and parameter optimization techniques to minimize collisions and reduce the number of rehashes. The hash function parameters are optimized using 3 techniques: Hill Climbing, Simulated Annealing, and Nelder-Mead. 
