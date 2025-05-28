@@ -54,7 +54,3 @@ will result in:
 - Geometric, works with multiple points at once to reshape simplex to converge on the best solution.
 - Particularly useful for optimizing functions with more than one variable.
 - The most precise optimization, this is often the best choice, but will require a higher runtime.
-
-## Contact Information
-- **Author:** Chi Nguyen
-- **Email:** nguyenct1@g.cofc.edu
